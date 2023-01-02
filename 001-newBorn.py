@@ -24,6 +24,7 @@ async def on_message(message):
 @client.event
 async def on_member_join(member):
     privateChannel = await member.create_dm()
-    await privateChannel.send(f'This is an Example')
+    await privateChannel.send(f'Hey {member} I am 001-New Born, I\'m a simple bot, I\'m here to help you in all things you need in the future.')
+    await privateChannel.send(f'Actually I\'m a bot of the serie New Born, I\'m not only bots of discord, In the future my creators are planning to crete more, so enjoy the channel')
 
 client.run(TOKEN)
